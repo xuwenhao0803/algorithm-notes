@@ -12,11 +12,11 @@
 var threeSum = function (nums) {
     const result = [];
     const len = nums.length;
-    nums.sort((a, b) => a - b);//将数组从大到小排序
+    nums.sort((a, b) => a - b);//将数组从小到大排序
     let i = 0;
     while (i < len - 2) {//第一层遍历开始节点的位置
         let first = i + 1;
-        let last = len - 1;
+        let last = len - 1;3
         if (nums[i] > 0) break;
         while (first < last) {//第二层遍历移动开始和结束的指针，跳过重复项
             if (nums[i] * nums[last] > 0) break;
