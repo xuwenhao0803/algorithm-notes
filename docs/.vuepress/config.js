@@ -21,6 +21,15 @@ module.exports = {
           '/accumulate/删除链表的倒数第 N 个结点.md'
         ]
       },
+      {
+        title:'动态规划',
+        path: '/dynamic',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 2,    // 可选的, 默认值是 1
+        children: [
+          '/dynamic/最长公共子序列.md',
+        ]
+      }
     ],
     nav: [
       { text: '前端算法', link: '/algorithm/' }, // 内部链接 以docs为根目录
