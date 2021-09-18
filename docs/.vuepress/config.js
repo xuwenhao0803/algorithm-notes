@@ -23,12 +23,23 @@ module.exports = {
       },
       {
         title:'动态规划',
-        path: '/dynamic',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 2,    // 可选的, 默认值是 1
+        path: '/dynamic',     
+        collapsable: true, 
+        sidebarDepth: 2,   
         children: [
           '/dynamic/最长公共子序列.md',
+          '/dynamic/打家劫舍.md',
+          '/dynamic/打家劫舍II.md'
         ]
+      },
+      {
+        title:'二叉树',
+        path: '/tree',     
+        collapsable: true, 
+        sidebarDepth: 2,   
+        children: [
+          '/tree/二叉树的锯齿形层序遍历.md',
+        ] 
       }
     ],
     nav: [
@@ -38,10 +49,10 @@ module.exports = {
       {
         text: 'GitHub',
         items: [
-          { text: 'GitHub地址', link: 'https://github.com/OBKoro1' },
+          { text: 'GitHub地址', link: 'https://github.com/xuwenhao0803' },
           {
             text: '算法仓库',
-            link: 'https://github.com/OBKoro1/Brush_algorithm'
+            link: 'https://github.com/xuwenhao0803/algorithm-notes'
           }
         ]
       }
