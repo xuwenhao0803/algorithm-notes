@@ -12,6 +12,16 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
+        title: '数组',   // 必要的
+        path: '/array',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/array/二分查找.md',
+          '/array/长度最小的子数组.md'
+        ]
+      },
+      {
         title: '双指针',   // 必要的
         path: '/accumulate',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
@@ -22,10 +32,10 @@ module.exports = {
         ]
       },
       {
-        title:'动态规划',
-        path: '/dynamic',     
-        collapsable: true, 
-        sidebarDepth: 2,   
+        title: '动态规划',
+        path: '/dynamic',
+        collapsable: true,
+        sidebarDepth: 2,
         children: [
           '/dynamic/最长公共子序列.md',
           '/dynamic/打家劫舍.md',
@@ -33,18 +43,17 @@ module.exports = {
         ]
       },
       {
-        title:'二叉树',
-        path: '/tree',     
-        collapsable: true, 
-        sidebarDepth: 2,   
+        title: '二叉树',
+        path: '/tree',
+        collapsable: true,
+        sidebarDepth: 2,
         children: [
           '/tree/二叉树的锯齿形层序遍历.md',
-        ] 
+        ]
       }
     ],
     nav: [
       { text: '前端算法', link: '/algorithm/' }, // 内部链接 以docs为根目录
-      { text: '博客', link: 'http://obkoro1.com/' }, // 外部链接
       // 下拉列表
       {
         text: 'GitHub',
