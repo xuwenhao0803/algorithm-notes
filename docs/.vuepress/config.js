@@ -29,6 +29,7 @@ module.exports = {
         children: [
           '/LinkList/移除链表元素.md',
           '/LinkList/两两交换链表中的节点.md',
+          '/LinkList/环形链表.md'
         ]
       },
       {
