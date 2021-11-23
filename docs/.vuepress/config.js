@@ -43,6 +43,15 @@ module.exports = {
         ]
       },
       {
+        title: '回溯算法',   // 必要的
+        path: '/backTrack',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/backTrack/组合.md',
+        ]
+      },
+      {
         title: '动态规划',
         path: '/dynamic',
         collapsable: true,
