@@ -59,7 +59,9 @@ module.exports = {
         children: [
           '/dynamic/最长公共子序列.md',
           '/dynamic/打家劫舍.md',
-          '/dynamic/打家劫舍II.md'
+          '/dynamic/打家劫舍II.md',
+          '/dynamic/回文字串.md',
+          '/dynamic/分割等和子集.md',
         ]
       },
       {
