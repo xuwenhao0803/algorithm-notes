@@ -18,7 +18,8 @@ module.exports = {
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           '/array/二分查找.md',
-          '/array/长度最小的子数组.md'
+          '/array/长度最小的子数组.md',
+          '/array/基本计算器II.md'
         ]
       },
       {
