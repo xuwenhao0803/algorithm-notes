@@ -3,7 +3,7 @@
 <a href="https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/" target="_blank">题目链接</a>
 
 ```
-给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
+ 给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
 ```
 <img src="https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg"/>
 <div>思路：定义两个指针先让快指针走倒数第n个距离，然后一起走等到快指针走到头之后，删除慢指针的下一节点</div>
