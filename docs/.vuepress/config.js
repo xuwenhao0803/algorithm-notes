@@ -19,7 +19,8 @@ module.exports = {
         children: [
           '/array/二分查找.md',
           '/array/长度最小的子数组.md',
-          '/array/基本计算器II.md'
+          '/array/基本计算器II.md',
+          '/array/螺旋矩阵',
         ]
       },
       {
