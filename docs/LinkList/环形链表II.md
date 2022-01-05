@@ -39,6 +39,36 @@ var detectCycle = function (head) {
 > 先找到第一次相交的点，然后将其中一个点再走一圈，计算他的环长度。然后两个节点快的先走环的长度然后一起走，相交的就是入口，因为快的已经走了一个环的长度了，再走x步就是他入口处，因为x+环的长度他会回到环的入口，这个x就是两个指针相交的地方
 
 ```js
+var detectCycle = function (head) {
+    let p1 = head
+    let p2 = head
+    let cycleCount = 0;
+    while (p1 && p1.next) {
+        let val1 = p1.next.next
+        let val2 = p2.next
+        if (val1 === val2) {
+            val1 = val1.next
+            cycleCount++
+            while (val1 !== val2) {
+                val1 = val1.next
+                cycleCount++
+            }
+            val1 = head
+            val2 = head
+            while (cycleCount--) {
+                val1 = val1.next
+            }
+            while (val1 !== val2) {
+                val1 = val1.next
+                val2 = val2.next
+            }
+            return val1
+        }
+        p1 = p1.next.next
+        p2 = p2.next
 
+    }
+    return null
+};
 
 ```
