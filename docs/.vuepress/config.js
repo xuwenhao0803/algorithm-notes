@@ -24,6 +24,17 @@ module.exports = {
         ]
       },
       {
+        title: '哈希表',   // 必要的
+        path: '/hash',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+          '/hash/两数之和.md',
+          '/hash/四数相加II.md',
+          '/hash/快乐数.md',
+        ]
+      },
+      {
         title: '链表',   // 必要的
         path: '/LinkList',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
