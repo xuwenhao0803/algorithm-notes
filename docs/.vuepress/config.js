@@ -56,7 +56,8 @@ module.exports = {
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           '/accumulate/double.md',
-          '/accumulate/删除链表的倒数第 N 个结点.md'
+          '/accumulate/删除链表的倒数第 N 个结点.md',
+          '/accumulate/四树之和.md'
         ]
       },
       {
