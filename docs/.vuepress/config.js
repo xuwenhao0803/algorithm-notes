@@ -50,6 +50,16 @@ module.exports = {
         ]
       },
       {
+        title: '栈和队列',   // 必要的
+        path: '/queue',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/queue/逆波兰表达式求值.md',
+        ]
+      },
+
+      {
         title: '双指针',   // 必要的
         path: '/accumulate',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
