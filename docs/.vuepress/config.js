@@ -56,6 +56,7 @@ module.exports = {
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           '/queue/逆波兰表达式求值.md',
+          '/queue/滑动窗口最大值.md',
         ]
       },
 
