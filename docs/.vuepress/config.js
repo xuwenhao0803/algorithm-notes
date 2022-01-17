@@ -50,13 +50,14 @@ module.exports = {
         ]
       },
       {
-        title: '栈和队列',   // 必要的
+        title: '栈和队列和堆',   // 必要的
         path: '/queue',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           '/queue/逆波兰表达式求值.md',
           '/queue/滑动窗口最大值.md',
+          '/queue/前K个高频元素.md',
         ]
       },
 
