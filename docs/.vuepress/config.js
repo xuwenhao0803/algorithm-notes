@@ -100,9 +100,11 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 2,
         children: [
+          '/tree/翻转二叉树.md',
           '/tree/平衡二叉树.md',
           '/tree/从中序与后序遍历序列构造二叉树.md',
           '/tree/二叉树的锯齿形层序遍历.md',
+          '/tree/二叉树的层序遍历.md'
         ]
       }
     ],
