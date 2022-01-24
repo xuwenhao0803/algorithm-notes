@@ -47,6 +47,7 @@ module.exports = {
           '/LinkList/删除链表的倒数第N个节点.md',
           '/LinkList/链表相交.md',
           '/LinkList/环形链表II.md',
+          '/LinkList/验证二叉搜索树.md',
         ]
       },
       {
