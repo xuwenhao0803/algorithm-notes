@@ -46,8 +46,7 @@ module.exports = {
           '/LinkList/环形链表.md',
           '/LinkList/删除链表的倒数第N个节点.md',
           '/LinkList/链表相交.md',
-          '/LinkList/环形链表II.md',
-          '/LinkList/验证二叉搜索树.md',
+          '/LinkList/环形链表II.md'
         ]
       },
       {
@@ -106,7 +105,8 @@ module.exports = {
           '/tree/从中序与后序遍历序列构造二叉树.md',
           '/tree/二叉树的锯齿形层序遍历.md',
           '/tree/二叉树的层序遍历.md',
-          '/tree/二叉树的最大深度.md'
+          '/tree/二叉树的最大深度.md',
+          '/tree/验证二叉搜索树.md',
         ]
       }
     ],
