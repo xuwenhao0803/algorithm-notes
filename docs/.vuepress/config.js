@@ -107,6 +107,7 @@ module.exports = {
           '/tree/二叉树的层序遍历.md',
           '/tree/二叉树的最大深度.md',
           '/tree/验证二叉搜索树.md',
+          '/tree/二叉搜索树中的插入操作.md'
         ]
       }
     ],
