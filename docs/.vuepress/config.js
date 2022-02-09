@@ -79,6 +79,7 @@ module.exports = {
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           '/backTrack/组合.md',
+          '/backTrack/组合总和III.md'
         ]
       },
       {
