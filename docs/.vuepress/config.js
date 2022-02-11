@@ -82,6 +82,8 @@ module.exports = {
           '/backTrack/组合总和II.md',
           '/backTrack/组合总和III.md',
           '/backTrack/组合总和.md',
+          '/backTrack/分割回文串.md',
+          '/backTrack/复原 IP 地址.md',
         ]
       },
       {
