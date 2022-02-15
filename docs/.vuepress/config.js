@@ -86,6 +86,8 @@ module.exports = {
           '/backTrack/复原 IP 地址.md',
           '/backTrack/子集.md',
           '/backTrack/子集II.md',
+          '/backTrack/递增子序列.md',
+          '/backTrack/全排列.md',
         ]
       },
       {
