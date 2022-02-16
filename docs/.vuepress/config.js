@@ -88,6 +88,8 @@ module.exports = {
           '/backTrack/子集II.md',
           '/backTrack/递增子序列.md',
           '/backTrack/全排列.md',
+          '/backTrack/全排列II.md',
+          '/backTrack/N皇后.md',
         ]
       },
       {
