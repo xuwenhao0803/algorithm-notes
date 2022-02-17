@@ -90,6 +90,7 @@ module.exports = {
           '/backTrack/全排列.md',
           '/backTrack/全排列II.md',
           '/backTrack/N皇后.md',
+          '/backTrack/解数独.md',
         ]
       },
       {
