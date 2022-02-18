@@ -124,6 +124,16 @@ module.exports = {
           '/tree/修剪二叉搜索树.md',
           '/tree/把二叉搜索树转换为累加树.md'
         ]
+      },
+      {
+        title: '贪心算法',
+        path: '/greedy',
+        collapsable: true,
+        sidebarDepth: 2,
+        children: [
+          '/greedy/分发饼干.md',
+          '/greedy/摆动序列.md'
+        ]
       }
     ],
     nav: [
