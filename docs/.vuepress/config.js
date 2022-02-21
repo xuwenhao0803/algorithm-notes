@@ -132,7 +132,8 @@ module.exports = {
         sidebarDepth: 2,
         children: [
           '/greedy/分发饼干.md',
-          '/greedy/摆动序列.md'
+          '/greedy/摆动序列.md',
+          '/greedy/最大子数组和.md'
         ]
       }
     ],
