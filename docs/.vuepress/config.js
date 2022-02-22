@@ -133,7 +133,9 @@ module.exports = {
         children: [
           '/greedy/分发饼干.md',
           '/greedy/摆动序列.md',
-          '/greedy/最大子数组和.md'
+          '/greedy/最大子数组和.md',
+          '/greedy/跳跃游戏.md',
+          '/greedy/跳跃游戏II.md'
         ]
       }
     ],
