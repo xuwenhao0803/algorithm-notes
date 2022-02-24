@@ -135,7 +135,8 @@ module.exports = {
           '/greedy/摆动序列.md',
           '/greedy/最大子数组和.md',
           '/greedy/跳跃游戏.md',
-          '/greedy/跳跃游戏II.md'
+          '/greedy/跳跃游戏II.md',
+          '/greedy/根据身高重建队列.md'
         ]
       }
     ],
