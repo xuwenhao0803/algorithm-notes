@@ -138,7 +138,9 @@ module.exports = {
           '/greedy/跳跃游戏II.md',
           '/greedy/根据身高重建队列.md',
           '/greedy/无重叠区间.md',
-          '/greedy/划分字母区间.md'
+          '/greedy/划分字母区间.md',
+          '/greedy/合并区间.md',
+          '/greedy/单调递增的数字.md'
         ]
       }
     ],
