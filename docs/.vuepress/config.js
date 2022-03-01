@@ -140,7 +140,8 @@ module.exports = {
           '/greedy/无重叠区间.md',
           '/greedy/划分字母区间.md',
           '/greedy/合并区间.md',
-          '/greedy/单调递增的数字.md'
+          '/greedy/单调递增的数字.md',
+          '/greedy/买卖股票的最佳时机含手续费.md'
         ]
       }
     ],
