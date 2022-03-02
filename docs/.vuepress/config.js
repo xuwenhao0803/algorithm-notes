@@ -105,6 +105,7 @@ module.exports = {
           '/dynamic/打家劫舍II.md',
           '/dynamic/回文字串.md',
           '/dynamic/分割等和子集.md',
+          '/dynamic/不同路径II.md',
         ]
       },
       {
