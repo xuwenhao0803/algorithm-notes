@@ -98,7 +98,8 @@ module.exports = {
         path: '/dynamic',
         collapsable: true,
         sidebarDepth: 2,
-        children: [
+        children: [         
+          '/dynamic/使用最小花费爬楼梯.md',
           '/dynamic/最长公共子序列.md',
           '/dynamic/打家劫舍.md',
           '/dynamic/打家劫舍II.md',
