@@ -109,7 +109,10 @@ module.exports = {
           '/dynamic/整数拆分.md',
           '/dynamic/不同的二叉搜索树.md',
           '/dynamic/最后一块石头的重量II.md',
-          '/dynamic/目标和.md'
+          '/dynamic/目标和.md',
+          '/dynamic/一和零.md',
+          '/dynamic/零钱兑换.md',
+          '/dynamic/零钱兑换II.md',
         ]
       },
       {
