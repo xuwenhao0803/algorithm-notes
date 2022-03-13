@@ -113,6 +113,7 @@ module.exports = {
           '/dynamic/一和零.md',
           '/dynamic/零钱兑换.md',
           '/dynamic/零钱兑换II.md',
+          '/dynamic/组合总和Ⅳ.md',
         ]
       },
       {
