@@ -69,7 +69,8 @@ module.exports = {
         children: [
           '/accumulate/double.md',
           '/accumulate/删除链表的倒数第 N 个结点.md',
-          '/accumulate/四树之和.md'
+          '/accumulate/四树之和.md',
+          '/accumulate/移动零.md'
         ]
       },
       {
