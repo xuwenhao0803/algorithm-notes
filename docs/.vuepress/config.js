@@ -116,7 +116,8 @@ module.exports = {
           '/dynamic/零钱兑换II.md',
           '/dynamic/组合总和Ⅳ.md',
           '/dynamic/单词拆分.md',
-          '/dynamic/最长递增子序列.md'
+          '/dynamic/最长递增子序列.md',
+          '/dynamic/最长重复子数组.md',
         ]
       },
       {
