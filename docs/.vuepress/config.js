@@ -118,6 +118,7 @@ module.exports = {
           '/dynamic/单词拆分.md',
           '/dynamic/最长递增子序列.md',
           '/dynamic/最长重复子数组.md',
+          '/dynamic/编辑距离.md',
         ]
       },
       {
