@@ -24,6 +24,16 @@ module.exports = {
         ]
       },
       {
+        title: '单调栈',   // 必要的
+        path: '/dandiao',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/dandiao/每日温度.md',
+          '/dandiao/下一个更大元素II.md',
+        ]
+      },
+      {
         title: '哈希表',   // 必要的
         path: '/hash',
         collapsable: true,
