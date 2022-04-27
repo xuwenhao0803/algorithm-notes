@@ -18,6 +18,6 @@ jobs:
     - name: npm install, build
       run: |
         yarn install
-        yarn build --if-present
+        yarn build
       env:
         CI: true
