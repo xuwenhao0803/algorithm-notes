@@ -35,6 +35,7 @@ var calculate = function (s) {
             } else if (pre === '*') {
                 result[result.length - 1] *= Number(cur)
             } else if (pre === '/') {
+                //不能使用Math.floor因为负数向下取整 -1.5变为-2
                 result[result.length - 1] =parseInt((result[result.length - 1] / Number(cur)) ) || 0
             }
 
